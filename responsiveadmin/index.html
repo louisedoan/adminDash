@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+   
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="">
+                    <h2 >EGA<span class="danger">TOR</span></h2>
+                </div>
+                <div class="close" id ="close-btn">
+                    <i class='bx bxs-right-arrow'></i>
+                </div>
+
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <i class='bx bx-home icon' ></i>
+                    <h3 class = "text nav-text">Dashboard</h3>
+                </a>
+                <a href="#" class="active">
+                    <i class='bx bx-palette icon'></i>
+                    <h3 class = "text nav-text">Top Artwork</h3>
+                </a>
+                <a href="#">
+                    <i class='bx bx-heart icon'></i>
+                    <h3 class = "text nav-text">Top Creator</h3>
+                </a>
+                <a href="#">
+                    <i class='bx bx-bar-chart icon' ></i>
+                    <h3 class = "text nav-text">Platform Setting</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- END of aside -->
+        <main>
+            <h1>Dashboard</h1>
+            <div> class=""</div>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="bottom">
+
+                <div class="insights">
+                    <div class="row-1">
+    
+                        <div class="revenue">
+                           <div class="small-img">
+                            <img src="./image 2194.png"> 
+                           </div>
+                           
+                           <div class="middle">
+                                <div class="left">
+                                    <h1>292M</h1>
+                                    <h3>Total Revenue</h3>
+                                    <small class="text-muted">Last 24 hours</small>
+                                </div>
+        
+                                <!-- <div class="progress">
+                                    <svg>
+                                        <circle cx='38' cy='38', r='36'></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <p>81%</p>
+                                    </div>
+                                </div> -->
+                           </div>
+                           
+                        </div>
+                        <!--end  revenue -->
+                        <div class="profit">
+                            <div class="small-img">
+                             <img src="./Group 18198.png"> 
+                            </div>
+                            
+                            <div class="middle">
+                                 <div class="left">
+                                     <h1>292M</h1>
+                                     <h3>Total Revenue</h3>
+                                     <small class="text-muted">Last 24 hours</small>
+                                 </div>
+         
+                                 <!-- <div class="progress">
+                                     <svg>
+                                         <circle cx='38' cy='38', r='36'></circle>
+                                     </svg>
+                                     <div class="number">
+                                         <p>81%</p>
+                                     </div>
+                                 </div> -->
+                            </div>
+                            
+                         </div>
+                    </div>
+    
+    
+                    <div class="row-2">
+    
+                        <div class="subcribes">
+                           <div class="small-img">
+                            <img src="./imgSubcribes.png"> 
+                           </div>
+                           
+                           <div class="middle">
+                                <div class="left">
+                                    <h1>292M</h1>
+                                    <h3>Total Revenue</h3>
+                                    <small class="text-muted">Last 24 hours</small>
+                                </div>
+        
+                                <!-- <div class="progress">
+                                    <svg>
+                                        <circle cx='38' cy='38', r='36'></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <p>81%</p>
+                                    </div>
+                                </div> -->
+                           </div>
+                           
+                        </div>
+                        <div class="users">
+                           <div class="small-img">
+                            <img src="./imgUser.png"> 
+                           </div>
+                           
+                           <div class="middle">
+                                <div class="left">
+                                    <h1>292M</h1>
+                                    <h3>Total Revenue</h3>
+                                    <small class="text-muted">Last 24 hours</small>
+                                </div>
+        
+                                <!-- <div class="progress">
+                                    <svg>
+                                        <circle cx='38' cy='38', r='36'></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <p>81%</p>
+                                    </div>
+                                </div> -->
+                           </div>
+                           
+                        </div>
+                    </div>
+                </div>  
+                <div class="chart-sub">
+                    <div class="charts-card">
+                        <p class="chart-title">Purchase and Sales Orders</p>
+                        <div id="area-chart"></div>
+                      </div>
+                </div>
+            </div>
+            <div class="charts-card">
+                <p class="chart-title">Expenses Over Time</p>
+                <div id="line-chart"></div>
+            </div>
+
+            <div class="charts-card">
+                <p class="chart-title">Growth</p>
+                <div id="donut-chart"></div>
+            </div>
+              
+        </main>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+
+    <script src="mysSyscript.js"></script>
+</body>
+</html>
